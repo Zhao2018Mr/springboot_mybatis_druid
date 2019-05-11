@@ -3,11 +3,14 @@
 数据库表
 -----------
 --master 数据库
+```sql
 create  TABLE  cd_user(
 id bigint primary key,
 username VARCHAR(50)
 );
+```
 
+```sql
 insert into cd_user (id,username) values(1,'master')
 
 --slave 数据库 
@@ -17,7 +20,7 @@ username VARCHAR(50)
 );
 
 insert into cd_user (id,username) values(1,'slave')
-
+```
 使用 测试
 ---------------
 进入
