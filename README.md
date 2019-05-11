@@ -12,8 +12,8 @@ username VARCHAR(50)
 insert into cd_user (id,username) values(1,'master')
 ```
 
-```sql
 --slave 数据库 
+```sql
 create  TABLE  cd_user(
 id bigint primary key,
 username VARCHAR(50)
