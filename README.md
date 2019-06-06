@@ -1,4 +1,13 @@
 
+该例使用的是 postgresql 数据库.
+-----
+
+如果用的是其他的数据库:<br/>
+
+1. 在[pom.xml](https://github.com/Zhao2018Mr/springboot_mybatis_druid/blob/master/src/main/resources/application.properties) 的postgresql 依赖 更换为 要使用数据库的JDBC连接.
+
+2. 在[application.properties](https://github.com/Zhao2018Mr/springboot_mybatis_druid/blob/master/src/main/resources/application.properties)修改数据库连接以及驱动
+	
 
 数据库表
 -----------
